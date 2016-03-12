@@ -48,7 +48,7 @@
             // Guess User
             if (name.includes('ubuntu')) {
               user = 'ubuntu';
-            } else if (name.includes('Amazon Linux')) {
+            } else if (name.includes('amazon linux')) {
               user = 'ec2-user';
             } else {
               user = 'root';
