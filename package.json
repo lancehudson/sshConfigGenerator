@@ -1,0 +1,25 @@
+{
+  "name": "sshconfiggenerator",
+  "version": "1.0.0",
+  "description": "Script to generate an ssh config from AWS tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lance Hudson <lance@lancehudson.com> (http://lancehudson.com)",
+  "license": "Unlicense",
+  "dependencies": {
+    "async": "^1.5.2",
+    "aws-sdk": "^2.2.43",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancehudson/sshConfigGenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lancehudson/sshConfigGenerator/issues"
+  },
+  "homepage": "https://github.com/lancehudson/sshConfigGenerator#readme"
+}
